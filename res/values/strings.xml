@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test appli</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="activity_title">決済以外のメッソード</string>
+    
+    <string name="method_1">確定済みの決済確認</string>
+    <string name="method_2">次回支払情報（継続タイプ）</string>
+    <string name="method_3">継続決済停止</string>
+    <string name="method_4">サービス詳細情報取得</string>
+    <string name="method_5">【管理サービス】購入状態</string>
+      
+    
+  
+
+</resources>
