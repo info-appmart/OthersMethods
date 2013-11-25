@@ -24,20 +24,20 @@ public class Utils {
 	final static String DEBUG_LOG = "LOG";
 	final static String SEP_SYMBOL = "&";
 	
-	final static int ACTION_SETTLEMENT 					=1;
-	final static int ACTION_SETTLEMENT_CHECK 			=2;
-	final static int ACTION_NEXT_PAYMENT 				=3;
-	final static int ACTION_STOP_CONTINUE_SETTLEMENT 	=4;
-	final static int ACTION_GET_SERVICE_INFO		 	=5;
-	final static int ACTION_GET_PURCHASING_INFO		 	=6;
+	final static int ACTION_SETTLEMENT =1;
+	final static int ACTION_SETTLEMENT_CHECK =2;
+	final static int ACTION_NEXT_PAYMENT =3;
+	final static int ACTION_STOP_CONTINUE_SETTLEMENT =4;
+	final static int ACTION_GET_SERVICE_INFO =5;
+	final static int ACTION_GET_PURCHASING_INFO =6;
 		
 	final static String PARAMETER_DEVELOPPER_ID = "your_develper_id";
-	final static String PARAMETER_APPLI_ID 		= "your_appli_id";
-	final static String PARAMETER_SERVICE_ID	= "your_service_id";
-	final static String PARAMETER_LICENCE_KEY 	= "your_licence_key";
+	final static String PARAMETER_APPLI_ID = "your_appli_id";
+	final static String PARAMETER_SERVICE_ID = "your_service_id";
+	final static String PARAMETER_LICENCE_KEY = "your_licence_key";
 	final static String PARAMETER_TRANSACTION_ID= "your_transaction_id";
 	final static String PARAMETER_NEXT_TRANSACTION_ID= "your_ext_transction_id";
-	final static String PARAMETER_PUBLIC_KEY 	= "your_public_key";
+	final static String PARAMETER_PUBLIC_KEY = "your_public_key";
 		
 	/*
 	 * debug用
