@@ -31,13 +31,13 @@ public class Utils {
 	final static int ACTION_GET_SERVICE_INFO		 	=5;
 	final static int ACTION_GET_PURCHASING_INFO		 	=6;
 		
-	final static String PARAMETER_DEVELOPPER_ID = "A0000022";
-	final static String PARAMETER_APPLI_ID 		= "7ce50053";
-	final static String PARAMETER_SERVICE_ID	= "test-canu-keizoku";
-	final static String PARAMETER_LICENCE_KEY 	= "e542436d-4abe-420a-8952-e50c73bc57a7";
-	final static String PARAMETER_TRANSACTION_ID= "1311220000648";
-	final static String PARAMETER_NEXT_TRANSACTION_ID= "N131122000026";
-	final static String PARAMETER_PUBLIC_KEY 	= "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDLF3uz+PhNMJPgcNICreeH8MiNEHTC5TdkSxqG6ZQOgNVFk5vcLde0nnfRkqWy6T1wvj2MVpM5hzcE/RXh3oYA7z1zf4Jh1OdF09vm2DKDYwu51HFysiIZ48TyP8T5BpGesgq4kyiHioeWHp/8P8DT57h9l8s0RHDxt9kHHSgvQIDAQAB";
+	final static String PARAMETER_DEVELOPPER_ID = "your_develper_id";
+	final static String PARAMETER_APPLI_ID 		= "your_appli_id";
+	final static String PARAMETER_SERVICE_ID	= "your_service_id";
+	final static String PARAMETER_LICENCE_KEY 	= "your_licence_key";
+	final static String PARAMETER_TRANSACTION_ID= "your_transaction_id";
+	final static String PARAMETER_NEXT_TRANSACTION_ID= "your_ext_transction_id";
+	final static String PARAMETER_PUBLIC_KEY 	= "your_public_key";
 		
 	/*
 	 * debug用
