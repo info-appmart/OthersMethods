@@ -3,7 +3,18 @@
 
 【Appmartアプリ内課金サービス】の決済意外の各メッソードの実装です。
 
-##### メッソード一覧：
+###　パーミッション追加
+
+課金システムを使うには下記パーミッションが必要となります。
+
+```
+<uses-permission android:name="jp.app_mart.permissions.APPMART_BILLING" />
+<uses-permission android:name="android.permission.INTERNET" />
+```
+
+
+
+### メッソード一覧：
 
  *  getServiceDetails　(サービスの詳細情報を取得)
  *  getPaymentDetails　(トランザクション情報を取得)
