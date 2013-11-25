@@ -11,5 +11,6 @@
  *  stopContinuePayment　(継続課金の停止)
  *  hasAlreadyBought　(管理サービスの購入履歴有・無)
  
- 各メッソードの【引数】・【戻り値】 は この[READMEファイル](https://github.com/info-appmart/inBillingSampleOnePage/blob/master/README.md)をご参照ください。
+
+各メッソードの【引数】・【戻り値】 は この[READMEファイル](https://github.com/info-appmart/inBillingSampleOnePage/blob/master/README.md)をご参照ください。
  
