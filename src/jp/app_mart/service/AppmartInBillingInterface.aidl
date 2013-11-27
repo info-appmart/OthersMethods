@@ -23,6 +23,6 @@ interface AppmartInBillingInterface {
     String stopContinuePayment(String nextTrnsId, String developerId, String itemId);
     
     //管理サービスの購入履歴有・無
-    int hasAlreadyBought (String developerId, String appId, String itemId);
+    String hasAlreadyBought (String developerId, String appId, String itemId);
 
 }

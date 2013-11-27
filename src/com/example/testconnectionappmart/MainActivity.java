@@ -28,6 +28,8 @@ public class MainActivity extends Activity implements OnClickListener {
 	private TextView result ;
 	//コンテキスト
 	private Context mContext;
+	//request code
+	private static int REQUEST_CODE = 89548 ;
 			
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +84,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		
 		result = (TextView) findViewById(R.id.result);
 	}
+	
 	
 	/* メッセージを更新 */
 	private void updateMessage(String str){		
@@ -160,7 +163,14 @@ public class MainActivity extends Activity implements OnClickListener {
 					message = service.getServiceDetails(Utils.PARAMETER_APPLI_ID, dataEncrypted);
 					break;
 				case Utils.ACTION_GET_PURCHASING_INFO: //管理サービスの購入履歴有・無
-					message = String.valueOf(service.hasAlreadyBought(Utils.PARAMETER_DEVELOPPER_ID, Utils.PARAMETER_APPLI_ID, Utils.PARAMETER_SERVICE_ID));
+					message = service.hasAlreadyBought(Utils.PARAMETER_DEVELOPPER_ID, Utils.PARAMETER_APPLI_ID, Utils.PARAMETER_SERVICE_ID);
+					
+					//ユーザはログインしていない場合はログイン画面へリダイレクト
+					if(message == null){
+						Intent intent = new Intent(Utils.LOGIN_SCREEN_APPMART);
+						startActivityForResult(intent, REQUEST_CODE);
+						return null;
+					}
 				}
 								
 			} catch (Exception e) {
@@ -173,8 +183,19 @@ public class MainActivity extends Activity implements OnClickListener {
 
 	    @Override
 	    protected void onPostExecute(String result) {
+	    	if (result != null)
 			updateMessage(result);			
 		}
 		
+	}
+	
+	
+	/* ログイン後　呼び出されるメッソード */
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		  if (requestCode == REQUEST_CODE ) {
+		     if(resultCode == RESULT_OK){      
+		    	 Utils.debug(mContext, "ログインしました！");		    	 
+		     }		    
+		  }
 	}
 }
