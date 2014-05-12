@@ -33,13 +33,13 @@ public class Utils {
 		
 	
 	final static String LOGIN_SCREEN_APPMART = "jp.app_mart.app.LOGIN_ACTIVITY";
-	final static String PARAMETER_DEVELOPPER_ID = "A0000022";
-	final static String PARAMETER_APPLI_ID = "7ce50053";
-	final static String PARAMETER_SERVICE_ID = "test-canu-keizoku";
-	final static String PARAMETER_LICENCE_KEY = "e542436d-4abe-420a-8952-e50c73bc57a7";
-	final static String PARAMETER_TRANSACTION_ID= "1311220000648";
-	final static String PARAMETER_NEXT_TRANSACTION_ID= "N131122000026";
-	final static String PARAMETER_PUBLIC_KEY = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDLF3uz+PhNMJPgcNICreeH8MiNEHTC5TdkSxqG6ZQOgNVFk5vcLde0nnfRkqWy6T1wvj2MVpM5hzcE/RXh3oYA7z1zf4Jh1OdF09vm2DKDYwu51HFysiIZ48TyP8T5BpGesgq4kyiHioeWHp/8P8DT57h9l8s0RHDxt9kHHSgvQIDAQAB";
+	final static String PARAMETER_DEVELOPPER_ID = "xxxxx";
+	final static String PARAMETER_APPLI_ID = "yyyyy";
+	final static String PARAMETER_SERVICE_ID = "zzzzz";
+	final static String PARAMETER_LICENCE_KEY = "xxxxx";
+	final static String PARAMETER_TRANSACTION_ID= "xxxx";
+	final static String PARAMETER_NEXT_TRANSACTION_ID= "Nyyyyyyyy";
+	final static String PARAMETER_PUBLIC_KEY = "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy";
 		
 	/*
 	 * debug用
